@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="OggettiComeParametri">
+  <ClassDiagramComponents>
+    <Class name="Libro" package="" visibility="public" xPosition="105.0" yPosition="68.0">
+      <Fields>
+        <Field name="genere" type="String" visibility="private"/>
+        <Field name="titolo" type="String" visibility="private"/>
+        <Field name="pagine" type="int" visibility="private"/>
+        <Field name="prezzo" type="float" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="String" name="genere"/>
+          <Argument type="String" name="titolo"/>
+          <Argument type="int" name="pagine"/>
+          <Argument type="float" name="prezzo"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="getGenere" returnType="String" visibility="public"/>
+        <Method name="getTitolo" returnType="String" visibility="public"/>
+        <Method name="intPagine" returnType="String" visibility="public"/>
+        <Method name="floatPrezzo" returnType="String" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="Autore" package="" visibility="public" xPosition="542.0" yPosition="68.0">
+      <Fields>
+        <Field name="ID" type="int" visibility="private"/>
+        <Field name="nome" type="String" visibility="private"/>
+        <Field name="suoiLibriLibreria" type="int" visibility="private"/>
+        <Field name="Titoli" type="String[]" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="int" name="ID"/>
+          <Argument type="String" name="nome"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="Setlibri" returnType="void" visibility="public">
+          <Argument type="String" name="Titoli"/>
+          <Argument type="int" name="i"/>
+        </Method>
+        <Method name="acquista" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="Libreria" package="" visibility="public" xPosition="307.0" yPosition="392.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="main" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations/>
+</ClassDiagram>
